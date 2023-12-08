@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.welcome-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #fff;
+    padding: 100px 0;
+}
+
+.personal-photo {
+    max-width: 300px;
+}
+
+.personal-photo img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.social-networks {
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin-top: 20px
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks li:not(:last-child) {
+    margin-right: 20px;
+}
+
+i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.about-me {
+    background-color: #F3F7EA;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.facts {
+    font-size: 1.2rem;
+}
+
+.facts li {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+.web {
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #fff;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    max-width: 900px;
+}
+
+.my-recomendations {
+    background-color: #F3F7EA;
+    padding: 50px 50px;
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+}
+
+.book {
+    width: calc((100% - 2 * 20px) / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+section.books img {
+    border-style: solid;
+    border-radius: 20%;
+}
+
+.book p {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
